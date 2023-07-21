@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3258F88C2A5FED34002ECFF3 /* PXExampleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258F88B2A5FED34002ECFF3 /* PXExampleCore.m */; };
-		3258F8912A5FF231002ECFF3 /* ViewControllerPortCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258F8902A5FF231002ECFF3 /* ViewControllerPortCore.m */; };
-		3258F8952A5FF4D9002ECFF3 /* PXNavScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258F8942A5FF4D9002ECFF3 /* PXNavScene.m */; };
-		3258F8982A5FF6F4002ECFF3 /* PXURIExampleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258F8972A5FF6F4002ECFF3 /* PXURIExampleScene.m */; };
-		3258F89B2A5FF745002ECFF3 /* PXURINavigationCenter+example.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258F89A2A5FF745002ECFF3 /* PXURINavigationCenter+example.m */; };
+		3258FD562A6A7E91002ECFF3 /* PXExampleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258FD482A6A7E90002ECFF3 /* PXExampleCore.m */; };
+		3258FD572A6A7E91002ECFF3 /* PXURIExampleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258FD4E2A6A7E90002ECFF3 /* PXURIExampleScene.m */; };
+		3258FD582A6A7E91002ECFF3 /* PXNavScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258FD4F2A6A7E90002ECFF3 /* PXNavScene.m */; };
+		3258FD592A6A7E91002ECFF3 /* ViewControllerPortCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258FD502A6A7E90002ECFF3 /* ViewControllerPortCore.m */; };
+		3258FD5A2A6A7E91002ECFF3 /* PXURINavigationCenter+example.m in Sources */ = {isa = PBXBuildFile; fileRef = 3258FD512A6A7E90002ECFF3 /* PXURINavigationCenter+example.m */; };
 		56982C2235D00DD13A5FA212 /* Pods_PXBifrost_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A8E542CA5CBFDC9838873C /* Pods_PXBifrost_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -42,19 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3258F88A2A5FED34002ECFF3 /* PXExampleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXExampleCore.h; sourceTree = "<group>"; };
-		3258F88B2A5FED34002ECFF3 /* PXExampleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXExampleCore.m; sourceTree = "<group>"; };
-		3258F88D2A5FEEDF002ECFF3 /* IPXExampleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPXExampleCore.h; sourceTree = "<group>"; };
-		3258F88E2A5FF1B8002ECFF3 /* IViewControllerPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IViewControllerPort.h; sourceTree = "<group>"; };
-		3258F88F2A5FF231002ECFF3 /* ViewControllerPortCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerPortCore.h; sourceTree = "<group>"; };
-		3258F8902A5FF231002ECFF3 /* ViewControllerPortCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPortCore.m; sourceTree = "<group>"; };
-		3258F8922A5FF2A3002ECFF3 /* INavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INavigationController.h; sourceTree = "<group>"; };
-		3258F8932A5FF4D9002ECFF3 /* PXNavScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXNavScene.h; sourceTree = "<group>"; };
-		3258F8942A5FF4D9002ECFF3 /* PXNavScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXNavScene.m; sourceTree = "<group>"; };
-		3258F8962A5FF6F4002ECFF3 /* PXURIExampleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXURIExampleScene.h; sourceTree = "<group>"; };
-		3258F8972A5FF6F4002ECFF3 /* PXURIExampleScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXURIExampleScene.m; sourceTree = "<group>"; };
-		3258F8992A5FF745002ECFF3 /* PXURINavigationCenter+example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXURINavigationCenter+example.h"; sourceTree = "<group>"; };
-		3258F89A2A5FF745002ECFF3 /* PXURINavigationCenter+example.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PXURINavigationCenter+example.m"; sourceTree = "<group>"; };
+		3258FD482A6A7E90002ECFF3 /* PXExampleCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXExampleCore.m; sourceTree = "<group>"; };
+		3258FD492A6A7E90002ECFF3 /* PXExampleCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXExampleCore.h; sourceTree = "<group>"; };
+		3258FD4A2A6A7E90002ECFF3 /* IViewControllerPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IViewControllerPort.h; sourceTree = "<group>"; };
+		3258FD4B2A6A7E90002ECFF3 /* IPXExampleCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPXExampleCore.h; sourceTree = "<group>"; };
+		3258FD4C2A6A7E90002ECFF3 /* INavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INavigationController.h; sourceTree = "<group>"; };
+		3258FD4E2A6A7E90002ECFF3 /* PXURIExampleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXURIExampleScene.m; sourceTree = "<group>"; };
+		3258FD4F2A6A7E90002ECFF3 /* PXNavScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXNavScene.m; sourceTree = "<group>"; };
+		3258FD502A6A7E90002ECFF3 /* ViewControllerPortCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPortCore.m; sourceTree = "<group>"; };
+		3258FD512A6A7E90002ECFF3 /* PXURINavigationCenter+example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PXURINavigationCenter+example.m"; sourceTree = "<group>"; };
+		3258FD522A6A7E90002ECFF3 /* PXNavScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXNavScene.h; sourceTree = "<group>"; };
+		3258FD532A6A7E90002ECFF3 /* PXURIExampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXURIExampleScene.h; sourceTree = "<group>"; };
+		3258FD542A6A7E90002ECFF3 /* ViewControllerPortCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPortCore.h; sourceTree = "<group>"; };
+		3258FD552A6A7E90002ECFF3 /* PXURINavigationCenter+example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXURINavigationCenter+example.h"; sourceTree = "<group>"; };
 		5BEBE424C1EE717238FE972F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5FD382D7D1BEF74B0B40608E /* PXBifrost.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXBifrost.podspec; path = ../PXBifrost.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* PXBifrost_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXBifrost_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +113,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3258FD472A6A7E90002ECFF3 /* ICore */ = {
+			isa = PBXGroup;
+			children = (
+				3258FD4C2A6A7E90002ECFF3 /* INavigationController.h */,
+				3258FD4B2A6A7E90002ECFF3 /* IPXExampleCore.h */,
+				3258FD4A2A6A7E90002ECFF3 /* IViewControllerPort.h */,
+			);
+			path = ICore;
+			sourceTree = "<group>";
+		};
+		3258FD4D2A6A7E90002ECFF3 /* URI */ = {
+			isa = PBXGroup;
+			children = (
+				3258FD522A6A7E90002ECFF3 /* PXNavScene.h */,
+				3258FD4F2A6A7E90002ECFF3 /* PXNavScene.m */,
+				3258FD532A6A7E90002ECFF3 /* PXURIExampleScene.h */,
+				3258FD4E2A6A7E90002ECFF3 /* PXURIExampleScene.m */,
+				3258FD552A6A7E90002ECFF3 /* PXURINavigationCenter+example.h */,
+				3258FD512A6A7E90002ECFF3 /* PXURINavigationCenter+example.m */,
+				3258FD542A6A7E90002ECFF3 /* ViewControllerPortCore.h */,
+				3258FD502A6A7E90002ECFF3 /* ViewControllerPortCore.m */,
+			);
+			path = URI;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -150,27 +175,18 @@
 		6003F593195388D20070C39A /* Example for PXBifrost */ = {
 			isa = PBXGroup;
 			children = (
+				3258FD472A6A7E90002ECFF3 /* ICore */,
+				3258FD4D2A6A7E90002ECFF3 /* URI */,
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
+				3258FD492A6A7E90002ECFF3 /* PXExampleCore.h */,
+				3258FD482A6A7E90002ECFF3 /* PXExampleCore.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
 				6003F5A6195388D20070C39A /* PXViewController.m */,
-				3258F88E2A5FF1B8002ECFF3 /* IViewControllerPort.h */,
-				3258F88A2A5FED34002ECFF3 /* PXExampleCore.h */,
-				3258F88B2A5FED34002ECFF3 /* PXExampleCore.m */,
-				3258F88D2A5FEEDF002ECFF3 /* IPXExampleCore.h */,
-				3258F88F2A5FF231002ECFF3 /* ViewControllerPortCore.h */,
-				3258F8902A5FF231002ECFF3 /* ViewControllerPortCore.m */,
-				3258F8922A5FF2A3002ECFF3 /* INavigationController.h */,
-				3258F8932A5FF4D9002ECFF3 /* PXNavScene.h */,
-				3258F8942A5FF4D9002ECFF3 /* PXNavScene.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				3258F8962A5FF6F4002ECFF3 /* PXURIExampleScene.h */,
-				3258F8972A5FF6F4002ECFF3 /* PXURIExampleScene.m */,
-				3258F8992A5FF745002ECFF3 /* PXURINavigationCenter+example.h */,
-				3258F89A2A5FF745002ECFF3 /* PXURINavigationCenter+example.m */,
 			);
 			name = "Example for PXBifrost";
 			path = PXBifrost;
@@ -400,14 +416,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3258F8912A5FF231002ECFF3 /* ViewControllerPortCore.m in Sources */,
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
-				3258F89B2A5FF745002ECFF3 /* PXURINavigationCenter+example.m in Sources */,
 				6003F5A7195388D20070C39A /* PXViewController.m in Sources */,
+				3258FD5A2A6A7E91002ECFF3 /* PXURINavigationCenter+example.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				3258F8952A5FF4D9002ECFF3 /* PXNavScene.m in Sources */,
-				3258F8982A5FF6F4002ECFF3 /* PXURIExampleScene.m in Sources */,
-				3258F88C2A5FED34002ECFF3 /* PXExampleCore.m in Sources */,
+				3258FD572A6A7E91002ECFF3 /* PXURIExampleScene.m in Sources */,
+				3258FD582A6A7E91002ECFF3 /* PXNavScene.m in Sources */,
+				3258FD562A6A7E91002ECFF3 /* PXExampleCore.m in Sources */,
+				3258FD592A6A7E91002ECFF3 /* ViewControllerPortCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
