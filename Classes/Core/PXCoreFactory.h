@@ -1,9 +1,8 @@
 //
 //  PXCoreFactory.h
-//  Mediator
+//  PXBifrost
 //
-//  Created by pianxian on 2023/2/11.
-//  Copyright © 2023  All rights reserved.
+//  Created by 胡伟伟 on 2023/7/21.
 //
 
 #import <Foundation/Foundation.h>

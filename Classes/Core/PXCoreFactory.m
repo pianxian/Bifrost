@@ -1,9 +1,8 @@
 //
 //  PXCoreFactory.m
-//  Mediator
+//  PXBifrost
 //
-//  Created by pianxian on 2023/2/22.
-//  Copyright © 2023  All rights reserved.
+//  Created by 胡伟伟 on 2023/7/21.
 //
 
 #import "PXCoreFactory.h"
@@ -11,7 +10,6 @@
 #import "PXSectionDataMapper.h"
 #import "PXCoreProtocol.h"
 #import <objc/runtime.h>
-
 
 static NSMapTable * protocolClassMap(void)
 {
@@ -37,7 +35,6 @@ static NSMapTable * protocolGeneratorMap(void)
 static BOOL _enableAssert = YES;
 
 @implementation PXCoreFactory
-
 + (BOOL)enableAssert
 {
     return _enableAssert;
