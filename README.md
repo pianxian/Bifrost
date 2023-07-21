@@ -34,5 +34,7 @@ example
   PXURIRegisterManager.inited = YES;
   [PXURIRegisterManager registerURINavisAuto];
   
-  cocopods 导入
-  pod 'Bifrost'
+  cocopods 导入 
+```
+pod 'Bifrost'
+ ```
