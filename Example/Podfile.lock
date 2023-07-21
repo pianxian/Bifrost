@@ -1,0 +1,35 @@
+PODS:
+  - PXBifrost (0.1.0):
+    - PXBifrost/All (= 0.1.0)
+  - PXBifrost/All (0.1.0):
+    - PXBifrost/Core
+    - PXBifrost/Mediator
+    - PXBifrost/Router
+    - PXBifrost/Service
+  - PXBifrost/Core (0.1.0)
+  - PXBifrost/Mediator (0.1.0)
+  - PXBifrost/Router (0.1.0)
+  - PXBifrost/Service (0.1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - PXBifrost (from `../`)
+  - YYCategories
+
+SPEC REPOS:
+  trunk:
+    - YYCategories
+
+EXTERNAL SOURCES:
+  PXBifrost:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXBifrost: 6ef41d583d88e5f989c111fd5e63c8944503752b
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: b26b1614c60c575d638231268528f9043268d00f
+
+COCOAPODS: 1.12.0

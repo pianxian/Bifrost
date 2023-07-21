@@ -1,0 +1,6 @@
+framework module PXBifrost {
+  umbrella header "PXBifrost-umbrella.h"
+
+  export *
+  module * { export * }
+}

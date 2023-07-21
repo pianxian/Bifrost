@@ -1,0 +1,63 @@
+{
+  "name": "PXBifrost",
+  "version": "0.1.0",
+  "summary": "iOS 组件化基础 SDK",
+  "description": "iOS 组件化基础 SDK",
+  "homepage": "https://github.com/pianxian/PXBifrost",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pianxian": "935932000@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/pianxian/PXBifrost.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "default_subspecs": "All",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "subspecs": [
+    {
+      "name": "All",
+      "dependencies": {
+        "PXBifrost/Core": [
+
+        ],
+        "PXBifrost/Mediator": [
+
+        ],
+        "PXBifrost/Service": [
+
+        ],
+        "PXBifrost/Router": [
+
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "source_files": "Classes/Core/**/*.{h,m,c}"
+    },
+    {
+      "name": "Mediator",
+      "source_files": "Classes/Mediator/**/*.{h,m,c}"
+    },
+    {
+      "name": "Service",
+      "source_files": "Classes/Service/**/*.{h,m,c}"
+    },
+    {
+      "name": "Router",
+      "source_files": "Classes/Router/**/*.{h,m,c}"
+    }
+  ]
+}
