@@ -7,7 +7,7 @@
 //
 
 #import "PXURINavigationCenter.h"
-#import "PXCoreFactory.h"
+//#import "PXCoreFactory.h"
 #import "PXMediator.h"
 #import "URINavigationCenterDefine.h"
 #import "PXCommonServiceCenter.h"
@@ -58,10 +58,10 @@
 {
     Protocol *IViewControllerPort = NSProtocolFromString(@"IViewControllerPort");
     id viewController = nil;
-    if (IViewControllerPort) {
-        id vcCore = [PXCoreFactory getMappedCoreFromProtocol:IViewControllerPort];
-        viewController = [[PXMediator sharedInstance] performSingleTarget:vcCore action:@"currentViewController" params:nil onMainThread:NO];
-    }
+//    if (IViewControllerPort) {
+//        id vcCore = [PXCoreFactory getMappedCoreFromProtocol:IViewControllerPort];
+//        viewController = [[PXMediator sharedInstance] performSingleTarget:vcCore action:@"currentViewController" params:nil onMainThread:NO];
+//    }
     return [self handleURI:URI
         fromViewController:viewController
                   animated:YES

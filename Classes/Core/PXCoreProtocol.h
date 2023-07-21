@@ -27,6 +27,7 @@ return _sharedCore;\
 }\
 
 @protocol PXCoreProtocol <NSObject>
+
 @required
 + (instancetype)sharedCore;
 
