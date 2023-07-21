@@ -1,5 +1,5 @@
 //
-//  MiKiCoreFactory.m
+//  PXCoreFactory.m
 //  Mediator
 //
 //  Created by pianxian on 2023/2/22.
@@ -83,7 +83,7 @@ static BOOL _enableAssert = YES;
         Class currentClass = [protocolClassMap() objectForKey:NSStringFromProtocol(protocol)];
         if (currentClass != nil) {
             if (currentClass != cls) {
-                [self assertOrLog:NO message:@"MiKiCoreFactory Protocol [%@] 协议已经注册，现有的 Class : %@, 新注册的 Class ：%@", NSStringFromProtocol(protocol), NSStringFromClass(currentClass), NSStringFromClass(cls)];
+                [self assertOrLog:NO message:@"PXCoreFactory Protocol [%@] 协议已经注册，现有的 Class : %@, 新注册的 Class ：%@", NSStringFromProtocol(protocol), NSStringFromClass(currentClass), NSStringFromClass(cls)];
             }
             return;
         }
@@ -167,7 +167,7 @@ static BOOL _enableAssert = YES;
     id sharedCore = [self getCoreFromClass:class];
     if (!sharedCore && !protocol_conformsToProtocol(protocol, @protocol(PXEnableNilCoreProtocol))) {
         [self assertOrLog:(sharedCore != nil)
-                  message:@"MiKiCoreFactory getMappedCoreFromProtocol:[%@] returns nil, plz check if you've registered your protocol.", NSStringFromProtocol(protocol)];
+                  message:@"PXCoreFactory getMappedCoreFromProtocol:[%@] returns nil, plz check if you've registered your protocol.", NSStringFromProtocol(protocol)];
     }
     return sharedCore;
 }
@@ -178,7 +178,7 @@ static BOOL _enableAssert = YES;
     id core = [self getAllocCoreFromClass:class];
     if (!core && !protocol_conformsToProtocol(protocol, @protocol(PXEnableNilCoreProtocol))) {
         [self assertOrLog:(core != nil)
-                  message:@"MiKiCoreFactory getMappedCoreFromProtocol:[%@] returns nil, plz check if you've registered your protocol.", NSStringFromProtocol(protocol)];
+                  message:@"PXCoreFactory getMappedCoreFromProtocol:[%@] returns nil, plz check if you've registered your protocol.", NSStringFromProtocol(protocol)];
     }
     return core;
 }
@@ -204,7 +204,7 @@ static BOOL _enableAssert = YES;
     }
     
     if (!class && !protocol_conformsToProtocol(protocol, @protocol(PXEnableNilCoreProtocol))) {
-        [self assertOrLog:NO message:@"MiKiCoreFactory getMappedClassFromProtocol:[%@] returns nil, plz check if you've registered your protocol.", NSStringFromProtocol(protocol)];
+        [self assertOrLog:NO message:@"PXCoreFactory getMappedClassFromProtocol:[%@] returns nil, plz check if you've registered your protocol.", NSStringFromProtocol(protocol)];
     }
     
     return class;

@@ -1,5 +1,5 @@
 //
-//  MiKiCoreFactory.h
+//  PXCoreFactory.h
 //  Mediator
 //
 //  Created by pianxian on 2023/2/11.

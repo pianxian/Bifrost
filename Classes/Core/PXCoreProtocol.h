@@ -32,7 +32,7 @@ return _sharedCore;\
 
 @end
 
-/// 遵循该协议，MiKiCoreFactory 相关方法获取不到对应 Class 时不会进入断言
+/// 遵循该协议，PXCoreFactory 相关方法获取不到对应 Class 时不会进入断言
 @protocol PXEnableNilCoreProtocol <NSObject>
 
 @end

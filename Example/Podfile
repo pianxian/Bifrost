@@ -16,7 +16,5 @@ target 'PXBifrost_Example' do
   pod 'YYCategories'
   target 'PXBifrost_Tests' do
     inherit! :search_paths
-
-    
   end
 end

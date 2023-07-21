@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   iOS 组件化基础 SDK
                        DESC
 
-  s.homepage         = 'https://github.com/pianxian/PXBifrost'
+  s.homepage         = 'https://github.com/pianxian/Bifrost'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pianxian' => '935932000@qq.com' }
-  s.source           = { :git => 'https://github.com/pianxian/PXBifrost.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pianxian/Bifrost.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

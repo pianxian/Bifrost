@@ -7,8 +7,8 @@
 //
 
 #import "PXURINavigationCenter.h"
-#import <PXCoreFactory.h>
-#import <PXMediator.h>
+#import <PXBifrost/PXCoreFactory.h>
+#import <PXBifrost/PXMediator.h>
 #import "URINavigationCenterDefine.h"
 #import "PXCommonServiceCenter.h"
 
