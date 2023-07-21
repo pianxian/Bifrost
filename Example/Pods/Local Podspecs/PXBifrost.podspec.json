@@ -24,40 +24,5 @@
   "requires_arc": true,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
-  },
-  "subspecs": [
-    {
-      "name": "All",
-      "dependencies": {
-        "PXBifrost/Core": [
-
-        ],
-        "PXBifrost/Mediator": [
-
-        ],
-        "PXBifrost/Service": [
-
-        ],
-        "PXBifrost/Router": [
-
-        ]
-      }
-    },
-    {
-      "name": "Core",
-      "source_files": "Classes/Core/**/*.{h,m,c}"
-    },
-    {
-      "name": "Mediator",
-      "source_files": "Classes/Mediator/**/*.{h,m,c}"
-    },
-    {
-      "name": "Service",
-      "source_files": "Classes/Service/**/*.{h,m,c}"
-    },
-    {
-      "name": "Router",
-      "source_files": "Classes/Router/**/*.{h,m,c}"
-    }
-  ]
+  }
 }
