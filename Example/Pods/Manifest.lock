@@ -1,15 +1,5 @@
 PODS:
-  - PXBifrost (0.1.0):
-    - PXBifrost/All (= 0.1.0)
-  - PXBifrost/All (0.1.0):
-    - PXBifrost/Core
-    - PXBifrost/Mediator
-    - PXBifrost/Router
-    - PXBifrost/Service
-  - PXBifrost/Core (0.1.0)
-  - PXBifrost/Mediator (0.1.0)
-  - PXBifrost/Router (0.1.0)
-  - PXBifrost/Service (0.1.0)
+  - PXBifrost (0.1.0)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -27,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXBifrost: b4e1c3bdcd69c47afd49d6f531faac3174360b64
+  PXBifrost: dcec5acb3d2abc9da5fbf2ebc15b31f356a619b2
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 1ea9d529719a43f1ce0b4c0260ac06ee82dcbe41

@@ -20,7 +20,6 @@
   },
   "source_files": "Classes/**/*",
   "public_header_files": "Pod/Classes/**/*.h",
-  "default_subspecs": "All",
   "requires_arc": true,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
