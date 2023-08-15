@@ -1,11 +1,11 @@
 PODS:
-  - PXBifrost (0.1.0)
+  - Bifrost (0.1.0)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
-  - PXBifrost (from `../`)
+  - Bifrost (from `../`)
   - YYCategories
 
 SPEC REPOS:
@@ -13,13 +13,13 @@ SPEC REPOS:
     - YYCategories
 
 EXTERNAL SOURCES:
-  PXBifrost:
+  Bifrost:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXBifrost: dcec5acb3d2abc9da5fbf2ebc15b31f356a619b2
+  Bifrost: 7ee753aa4a00f18150f1711388949fb84aaab5e4
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 1ea9d529719a43f1ce0b4c0260ac06ee82dcbe41
+PODFILE CHECKSUM: 6b5a14b11176af61035ea58df3c44b51acea1f11
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1

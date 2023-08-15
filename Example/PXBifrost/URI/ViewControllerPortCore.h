@@ -10,9 +10,9 @@
 #import "IViewControllerPort.h"
 
 NS_ASSUME_NONNULL_BEGIN
-@import PXBifrost;
+@import Bifrost;
 
-@interface ViewControllerPortCore : NSObject<PXCoreProtocol, IViewControllerPort>
+@interface ViewControllerPortCore : NSObject<YOYCoreProtocol, IViewControllerPort>
 
 @end
 

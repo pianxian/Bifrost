@@ -8,15 +8,15 @@
 
 #import "PXAppDelegate.h"
 
-#import <PXBifrost/PXURIRegisterManager.h>
+#import <Bifrost/YOYURIRegisterManager.h>
 @implementation PXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     //注册路由
-    PXURIRegisterManager.inited = YES;
-    [PXURIRegisterManager registerURINavisAuto];
+    YOYURIRegisterManager.inited = YES;
+    [YOYURIRegisterManager registerURINavisAuto];
     return YES;
 }
 

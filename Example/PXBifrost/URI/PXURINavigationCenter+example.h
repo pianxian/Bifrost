@@ -6,11 +6,11 @@
 //  Copyright © 2023 huweiwei. All rights reserved.
 //
 
-#import <PXBifrost/PXURINavigationCenter.h>
+#import <Bifrost/YOYURINavigationCenter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PXURINavigationCenter (example)
+@interface YOYURINavigationCenter (example)
 
 @end
 

@@ -12,7 +12,7 @@ end
 end
 end
 target 'PXBifrost_Example' do
-  pod 'PXBifrost', :path => '../'
+  pod 'Bifrost', :path => '../'
   pod 'YYCategories'
   target 'PXBifrost_Tests' do
     inherit! :search_paths

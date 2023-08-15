@@ -7,11 +7,11 @@
 //
 
 #import "PXNavScene.h"
-#import <PXBifrost/PXCoreSectionDataMacros.h>
+#import <Bifrost/YOYCoreSectionDataMacros.h>
 
 
 
-PX_CORE_REGISTER(INavigationController, SLNavigationScene);
+YOY_CORE_REGISTER(INavigationController, SLNavigationScene);
 
 @interface PXNavScene ()
 

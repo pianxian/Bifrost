@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## PXBifrost
+## Bifrost
 
 Copyright (c) 2023 huweiwei <935932000@qq.com>
 

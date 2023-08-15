@@ -11,9 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@import PXBifrost;
+@import Bifrost;
 
-@interface PXExampleCore : NSObject<PXCoreProtocol>
+@interface PXExampleCore : NSObject<YOYCoreProtocol>
 
 @end
 

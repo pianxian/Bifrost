@@ -10,16 +10,16 @@
 #import "PXURIExampleScene.h"
 #import "IViewControllerPort.h"
 
-@import PXBifrost;
+@import Bifrost;
 
-@implementation PXURINavigationCenter (example)
+@implementation YOYURINavigationCenter (example)
 
 RESIGN_ACTION(exampleURI, @[ @"exampleURI/URI" ])
 {
     PXURIExampleScene *exampleScene = [PXURIExampleScene new];
     exampleScene.modalPresentationStyle = UIModalPresentationCustom;
     exampleScene.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    [PXGetCoreI(IViewControllerPort).currentViewController presentViewController:exampleScene animated:YES completion:nil];
+    [YOYGetCoreI(IViewControllerPort).currentViewController presentViewController:exampleScene animated:YES completion:nil];
     return true;
 }
 

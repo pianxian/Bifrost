@@ -55,8 +55,8 @@
 		3258FD532A6A7E90002ECFF3 /* PXURIExampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXURIExampleScene.h; sourceTree = "<group>"; };
 		3258FD542A6A7E90002ECFF3 /* ViewControllerPortCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPortCore.h; sourceTree = "<group>"; };
 		3258FD552A6A7E90002ECFF3 /* PXURINavigationCenter+example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXURINavigationCenter+example.h"; sourceTree = "<group>"; };
+		32B100C62A860F6B001AE343 /* Bifrost.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Bifrost.podspec; path = ../Bifrost.podspec; sourceTree = "<group>"; };
 		5BEBE424C1EE717238FE972F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5FD382D7D1BEF74B0B40608E /* PXBifrost.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXBifrost.podspec; path = ../PXBifrost.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* PXBifrost_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXBifrost_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -225,7 +225,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				5FD382D7D1BEF74B0B40608E /* PXBifrost.podspec */,
+				32B100C62A860F6B001AE343 /* Bifrost.podspec */,
 				C0FE5862CE8C3324009E3AB3 /* README.md */,
 				5BEBE424C1EE717238FE972F /* LICENSE */,
 			);
@@ -352,12 +352,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PXBifrost_Example/Pods-PXBifrost_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PXBifrost/PXBifrost.framework",
+				"${BUILT_PRODUCTS_DIR}/Bifrost/Bifrost.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PXBifrost.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bifrost.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

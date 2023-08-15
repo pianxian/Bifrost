@@ -10,7 +10,7 @@
 #import "IPXExampleCore.h"
 #import "PXURINavigationCenter+example.h"
 
-@import PXBifrost;
+@import Bifrost;
 
 @interface PXViewController ()
 
@@ -30,11 +30,11 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)example:(UIButton *)sender {
-    [PXGetCoreI(IPXExampleCore) helloWorld];
+    [YOYGetCoreI(IPXExampleCore) helloWorld];
 }
 
 - (IBAction)pushScene:(id)sender {
-    [PXURINavigationCenter.sharedObject handleURI:@"pxExample://exampleURI/URI"];
+    [YOYURINavigationCenter.sharedObject handleURI:@"pxExample://exampleURI/URI"];
 }
 
 

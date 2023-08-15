@@ -7,12 +7,12 @@
 //
 
 #import "ViewControllerPortCore.h"
-#import <PXBifrost/PXCoreService.h>
+#import <Bifrost/YOYCoreService.h>
 #import "INavigationController.h"
 #import <YYCategories/NSObject+YYAdd.h>
 
 @implementation ViewControllerPortCore
-PX_CORE_REGISTER(IViewControllerPort, ViewControllerPortCore)
+YOY_CORE_REGISTER(IViewControllerPort, ViewControllerPortCore)
 
 IMPLEMENT_COREPROTOCOL
 
@@ -55,7 +55,7 @@ IMPLEMENT_COREPROTOCOL
     __block UIViewController *result = nil;
     // Try to find the root view controller programmically
     // Find the top window (that is not an alert view or other window)
-    UIWindow *topWindow = PXGetCoreI(IViewControllerPort).keyWindow;
+    UIWindow *topWindow = YOYGetCoreI(IViewControllerPort).keyWindow;
     //手百自定义的window，原逻辑会出问题，先这么改看看效果
     //    if (topWindow.windowLevel != UIWindowLevelNormal) {
     if (topWindow.windowLevel == UIWindowLevelAlert || topWindow.windowLevel == UIWindowLevelStatusBar) {
@@ -102,7 +102,7 @@ IMPLEMENT_COREPROTOCOL
     }else{
         NSLog(@"%@", NSStringFromClass(topWindow.class),NSStringFromClass(topWindow.rootViewController.class));
     }
-    return result ?: PXGetCoreI(IViewControllerPort).keyWindow.rootViewController;
+    return result ?: YOYGetCoreI(IViewControllerPort).keyWindow.rootViewController;
 }
 
 - (UIViewController *)getRootViewController
@@ -111,7 +111,7 @@ IMPLEMENT_COREPROTOCOL
     __block UIViewController *result = nil;
     // Try to find the root view controller programmically
     // Find the top window (that is not an alert view or other window)
-    UIWindow *topWindow = PXGetCoreI(IViewControllerPort).keyWindow;
+    UIWindow *topWindow = YOYGetCoreI(IViewControllerPort).keyWindow;
     if (topWindow.windowLevel != UIWindowLevelNormal) {
         NSArray *windows = [[UIApplication sharedApplication] windows];
         for (topWindow in windows) {
@@ -229,7 +229,7 @@ IMPLEMENT_COREPROTOCOL
 - (nullable UIViewController *)currentWindowRootViewController
 {
     __block UIViewController *result = nil;
-    UIWindow *topWindow = PXGetCoreI(IViewControllerPort).keyWindow;
+    UIWindow *topWindow = YOYGetCoreI(IViewControllerPort).keyWindow;
     if (topWindow.windowLevel != UIWindowLevelNormal) {
         NSArray *windows = [[UIApplication sharedApplication] windows];
         for (topWindow in windows) {
@@ -296,15 +296,15 @@ safePushViewController:(UIViewController *)toVc
 {
     if ([vc isKindOfClass:[UINavigationController class]] || vc.navigationController) {
         vc.modalPresentationStyle =  UIModalPresentationFullScreen;
-        [[PXGetCoreI(IViewControllerPort) currentViewController] presentViewController:vc
+        [[YOYGetCoreI(IViewControllerPort) currentViewController] presentViewController:vc
                                                                                 animated:animated
                                                                               completion:completion];
     }
     else {
-        UINavigationController *navigationVC = [[PXGetClassI(INavigationController) alloc] initWithRootViewController:vc];
+        UINavigationController *navigationVC = [[YOYGetClassI(INavigationController) alloc] initWithRootViewController:vc];
         [navigationVC setNavigationBarHidden:YES animated:YES];
         navigationVC.modalPresentationStyle = UIModalPresentationFullScreen;
-        [[PXGetCoreI(IViewControllerPort) currentViewController] presentViewController:navigationVC
+        [[YOYGetCoreI(IViewControllerPort) currentViewController] presentViewController:navigationVC
                                                                                 animated:animated
                                                                               completion:completion];
     }
@@ -414,7 +414,7 @@ safePortraitPushViewController:(UIViewController *)toVc
 
 + (BOOL)hasKindOfViewControllerInCurrentStack:(Class)controller
 {
-    UITabBarController *mainTabbarController = [PXGetCoreI(IViewControllerPort) mainTabBarController];
+    UITabBarController *mainTabbarController = [YOYGetCoreI(IViewControllerPort) mainTabBarController];
     
     __block BOOL result = NO;
     [mainTabbarController.viewControllers

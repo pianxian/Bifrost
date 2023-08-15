@@ -1,0 +1,6 @@
+framework module Bifrost {
+  umbrella header "Bifrost-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,9 +9,9 @@
 #ifndef URINavigationCenterDefine_h
 #define URINavigationCenterDefine_h
 
-#import "PXRouteManager.h"
-#import "PXURINavigationCenter.h"
-#import "PXRoute.h"
+#import "YOYRouteManager.h"
+#import "YOYURINavigationCenter.h"
+#import "YOYRoute.h"
 
 #define KEY(key) @#key
 
@@ -29,5 +29,5 @@ static NSString * const URIRouteRegisterKey = @"URIRouteRegisterKey";
 @protocol URINavigationCenterClient <NSObject>
 
 @optional
-- (void)routeManager:(PXRouteManager *)routeManager didOpenRoute:(PXRoute *)route forPath:(NSString *)path;
+- (void)routeManager:(YOYRouteManager *)routeManager didOpenRoute:(YOYRoute *)route forPath:(NSString *)path;
 @end

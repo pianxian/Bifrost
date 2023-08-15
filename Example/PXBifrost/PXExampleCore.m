@@ -8,7 +8,7 @@
 
 #import "PXExampleCore.h"
 //编译时注册进二进制data字段
-PX_CORE_REGISTER(IPXExampleCore, PXExampleCore);
+YOY_CORE_REGISTER(IPXExampleCore, PXExampleCore);
 
 
 @interface PXExampleCore()<IPXExampleCore>
